@@ -393,6 +393,7 @@ jobs:
         uses: stdlib-js/bundle-action@main
         with:
           target: 'esm'
+          minify: 'false'
 
       # Rewrite file contents:
       - name: 'Rewrite file contents'

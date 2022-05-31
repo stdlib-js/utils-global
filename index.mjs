@@ -80,12 +80,12 @@ var codegen = getGlobal$2;
 
 // MAIN //
 
-var obj$2 = ( typeof self === 'object' ) ? self : null;
+var obj$1 = ( typeof self === 'object' ) ? self : null;
 
 
 // EXPORTS //
 
-var self_1 = obj$2;
+var self_1 = obj$1;
 
 /**
 * @license Apache-2.0
@@ -107,31 +107,20 @@ var self_1 = obj$2;
 
 // MAIN //
 
-var obj$1 = ( typeof window === 'object' ) ? window : null;
+var obj = ( typeof window === 'object' ) ? window : null;
 
 
 // EXPORTS //
 
-var window_1 = obj$1;
-
-var global$2 = (typeof global !== "undefined" ? global :
-  typeof self !== "undefined" ? self :
-  typeof window !== "undefined" ? window : {});
-
-// MAIN //
-
-var obj = ( typeof global$2 === 'object' ) ? global$2 : null;
-
+var window_1 = obj;
 
 // EXPORTS //
 
-module.exports = obj;
-
-var global$1 = /*#__PURE__*/Object.freeze({
+var global = /*#__PURE__*/Object.freeze({
 	__proto__: null
 });
 
-var require$$5 = /*@__PURE__*/getAugmentedNamespace(global$1);
+var require$$5 = /*@__PURE__*/getAugmentedNamespace(global);
 
 /**
 * @license Apache-2.0

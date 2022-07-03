@@ -206,8 +206,8 @@ jobs:
           find . -mindepth 1 -type 'd' | grep -v -e ".git" | xargs -r rm -rf
 
           git add -A
-          git commit -m "Remove files"
-          
+          git commit -m "Remove files" --allow-empty
+
           git config merge.theirs.name 'simulate `-s theirs`'
           git config merge.theirs.driver 'cat %B > %A'
           GIT_CONFIG_PARAMETERS="'merge.default=theirs'" git merge origin/production --allow-unrelated-histories
@@ -381,7 +381,7 @@ jobs:
           find . -mindepth 1 -type 'd' | grep -v -e ".git" | xargs -r rm -rf
 
           git add -A
-          git commit -m "Remove files"
+          git commit -m "Remove files" --allow-empty
 
           git config merge.theirs.name 'simulate `-s theirs`'
           git config merge.theirs.driver 'cat %B > %A'
@@ -554,7 +554,7 @@ jobs:
           find . -mindepth 1 -type 'd' | grep -v -e ".git" | xargs -r rm -rf
 
           git add -A
-          git commit -m "Remove files"
+          git commit -m "Remove files" --allow-empty
 
           git config merge.theirs.name 'simulate `-s theirs`'
           git config merge.theirs.driver 'cat %B > %A'

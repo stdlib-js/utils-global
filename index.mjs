@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import{isPrimitive as e}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";function n(){return new Function("return this;")()}var o="object"==typeof self?self:null,r="object"==typeof window?window:null,i="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{},f="object"==typeof i?i:null;function s(i){if(arguments.length){if(!e(i))throw new TypeError(t("0jwBy",i));if(i)return n()}if(o)return o;if(r)return r;if(f)return f;throw new Error(t("0jw1p"))}export{s as default};
-//# sourceMappingURL=index.mjs.map

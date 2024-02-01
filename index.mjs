@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import{isPrimitive as e}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boolean@v0.1.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";function r(){return new Function("return this;")()}var n="object"==typeof self?self:null,o="object"==typeof window?window:null,i="object"==typeof globalThis?globalThis:null;function l(l){if(arguments.length){if(!e(l))throw new TypeError(t("invalid argument. Must provide a boolean. Value: `%s`.",l));if(l)return r()}if(i)return i;if(n)return n;if(o)return o;throw new Error("unexpected error. Unable to resolve global object.")}export{l as default};
+//# sourceMappingURL=index.mjs.map

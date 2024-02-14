@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-global/tags). For example,
+
+```javascript
 import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@v0.2.0-esm/index.mjs';
 ```
 
@@ -97,7 +102,7 @@ var g = getGlobal( true );
 <body>
 <script type="module">
 
-import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@v0.2.0-esm/index.mjs';
+import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@esm/index.mjs';
 
 // Resolve the global object:
 var g = getGlobal();

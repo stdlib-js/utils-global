@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@esm/index.mjs';
+import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@v0.2.1-esm/index.mjs';
 ```
 
 #### getGlobal( \[codegen] )
@@ -97,7 +97,7 @@ var g = getGlobal( true );
 <body>
 <script type="module">
 
-import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@esm/index.mjs';
+import getGlobal from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-global@v0.2.1-esm/index.mjs';
 
 // Resolve the global object:
 var g = getGlobal();
